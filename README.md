@@ -15,13 +15,13 @@
 
 Создайте файл `.env` в корне проекта с следующими переменными окружения:
 
-DATABASE_NAME=postgres
-DATABASE_USER=postgres
-DATABASE_PASSWORD=postgres
+DATABASE_NAME=your_database_name
+DATABASE_USER=your_database_user
+DATABASE_PASSWORD=your_database_password
 DATABASE_HOST=localhost
 DATABASE_PORT=5432
 
-SECRET_KEY='django-insecure-(yyf71$a3j&795)9b($*5g=26e^o2u#ea)_rvs_&7$fnvk)bui'
+SECRET_KEY=your_django_secret_key
 DEBUG=True  # Или False в production
 ALLOWED_HOSTS=localhost, 127.0.0.1  
 
